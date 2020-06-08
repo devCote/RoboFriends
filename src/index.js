@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Card from './Card';
 import 'tachyons';
-import Header from './Header';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
